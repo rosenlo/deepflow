@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: change proc socket sync interval config name and default value [#8658](https://github.com/deepflowio/deepflow/pull/8658) by [rvql](https://github.com/rvql)
+* fix: agent group configuration api response unexcepted value [#8647](https://github.com/deepflowio/deepflow/pull/8647) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: add alarm_label table [#8642](https://github.com/deepflowio/deepflow/pull/8642) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: agent - remove duplicate vhost dispatcher [#7267](https://github.com/deepflowio/deepflow/pull/7267) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Show metrics use query cache can be configured [#7263](https://github.com/deepflowio/deepflow/pull/7263) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: server recorder prints unnecessary error logs [#7262](https://github.com/deepflowio/deepflow/pull/7262) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -40,6 +43,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: sender add compress flag [#8639](https://github.com/deepflowio/deepflow/pull/8639) by [taloric](https://github.com/taloric)
+* feat: adds resource synchronization delay alarms [#8612](https://github.com/deepflowio/deepflow/pull/8612) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add resource association abnormal alarm [#8585](https://github.com/deepflowio/deepflow/pull/8585) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Support kubernetes api field_selector [#7248](https://github.com/deepflowio/deepflow/pull/7248) by [rvql](https://github.com/rvql)
 * feat: add debug ctl to rebalance agent by traffic [#7184](https://github.com/deepflowio/deepflow/pull/7184) by [roryye](https://github.com/roryye)
 * feat: agent - eBPF Add JAVA symbol file generation log [#7258](https://github.com/deepflowio/deepflow/pull/7258) by [yinjiping](https://github.com/yinjiping)
@@ -71,8 +77,8 @@
 * perf: improve parsing RequestResource from http.url of OTel data [#7172](https://github.com/deepflowio/deepflow/pull/7172) by [lzf575](https://github.com/lzf575)
 
 #### Documentation
+* docs: update agent config doc [#8660](https://github.com/deepflowio/deepflow/pull/8660) by [sharang](https://github.com/sharang)
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
-
 
 #### Chore
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
